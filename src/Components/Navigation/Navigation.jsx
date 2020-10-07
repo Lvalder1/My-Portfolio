@@ -13,7 +13,7 @@ export default class Navigation extends Component {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto mr-0">
+            <Nav className="mr-auto ml-20">
             <Nav.Link href="home">Home</Nav.Link>
             <Nav.Link href="about">About</Nav.Link>
             <Nav.Link href="skills">Skills</Nav.Link>
