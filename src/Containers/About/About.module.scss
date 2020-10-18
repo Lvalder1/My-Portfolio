@@ -10,7 +10,7 @@ h1 {
     text-align: center;
 
     span {
-        color: #06BCC1;
+        color: $secondary-color;
     }
 }
 
@@ -41,5 +41,10 @@ h1 {
 @media only screen and (max-width: 600px) {
     #aboutMe {
         flex-direction: column;
+    }
+
+    .aboutMeRight {
+        display: flex;
+        text-align: center;
     }
 }
