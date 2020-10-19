@@ -4,7 +4,7 @@ import styles from "./Contact.module.scss";
 export default class Contact extends Component {
     render () {
         return (
-            <div className={styles.contact}>Contact</div>
+            <div className={styles.contact} id="contact">Contact</div>
         );
     }
 } 

@@ -5,7 +5,7 @@ import profile from "../../Images/Louis.png";
 export default class About extends Component {
     render () {
         return (
-            <div className={styles.about}>
+            <div className={styles.about} id="about">
                 <h1>Hi I am <span>Louis Valder</span> I am a web developer!</h1>
                 <div id={styles.aboutMe}>
                     <div className={styles.aboutMeLeft}>
