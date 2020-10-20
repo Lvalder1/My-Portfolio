@@ -10,18 +10,18 @@ h3 {
     text-align: center;
 }
 
-// .skillsContainer {
-//     display: flex;
-//     flex-direction: row;
-//     text-align: center;
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 
-//     div {
-//         text-align: center;
-//         flex-grow: 1;
-//         width: 40vw;
-//     }
+    div {
+        text-align: center;
+        flex-grow: 1;
+        width: 40vw;
+    }
 
     p {
-        margin: 40px;
+        margin: 0px;
     }
-// }
+}
