@@ -7,11 +7,13 @@ export default class Projects extends Component {
             <div className={styles.projects} id="projects">
                 <h3>Projects</h3>
                 <div className={styles.projectArea}>
-                    <div className={styles.project}>
-                        <div className={styles.projectName}>
-                        Rock, Paper, Scissors!
+                   <a href="https://lvalder1.github.io/Rock-Paper-Scissors/" target="_blank" rel="noopener noreferrer">
+                        <div className={styles.project}>
+                            <div className={styles.projectName}>
+                            Rock, Paper, Scissors!
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <div className={styles.project}></div>
                     <div className={styles.project}></div>
                 </div>
