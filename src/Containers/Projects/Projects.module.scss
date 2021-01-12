@@ -15,7 +15,11 @@ h3 {
     justify-content: center;
 }
 
-.project {
+.project  {
+    position: relative;
+}
+
+.projectImage {
     width: 200px;
     height: 200px;
     border: 1px solid black;
@@ -41,6 +45,6 @@ h3 {
     
     
     &:hover {
-        opacity: 0.5;
+        opacity: 1;
     }
 }
