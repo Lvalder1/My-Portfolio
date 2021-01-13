@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 export default class Navigation extends Component {
     render () {
       return (
-        <Navbar expand="sm" sticky="top">
+        <Navbar expand="sm">
         <Navbar.Brand className={styles.brand}>
             <p id={styles.brandTop}>Louis Valder</p>
         </Navbar.Brand>
