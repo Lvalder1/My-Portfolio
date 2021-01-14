@@ -26,7 +26,7 @@ h1 {
 
     .footercontainer {
         position: absolute;
-        bottom: -12%;
+        bottom: 0;
         height: 12%;
         width: 100%;
         background-color: black;
@@ -41,10 +41,12 @@ h1 {
             margin: 0;
             margin-bottom: 5px;
             font-size: 1rem;
+            color: $secondary-txt-color;
         }
 
         .fontAwesomeIcon {
             font-size: 1.6rem;
+            color: $secondary-txt-color;
         }
 
         &:hover {
@@ -54,48 +56,3 @@ h1 {
         }
     }
 }
-
-
-// .landingPage {
-//     height: 100vh;
-//     width: 100vw;
-
-//     .footercontainer {
-//         position: absolute;
-//         bottom: -12%;
-//         height: 12%;
-//         width: 100%;
-//         background-color: black;
-//         z-index: 3;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//         cursor: pointer;
-
-//         p {
-//             margin: 0;
-//             margin-bottom: 5px;
-//             font-size: 1rem;
-//         }
-
-//         .fontAwesomeIcon {
-//             font-size: 1.6rem;
-//         }
-
-//         &:hover {
-//             .fontAwesomeIcon {
-//                 color: $primary-color;
-//             }
-//         }
-//     }
-// }
-
-// .bgImage {
-    
-// }
-
-// .imgWrapper {
-//     height: 100%;
-//     width: 100%;
-// }

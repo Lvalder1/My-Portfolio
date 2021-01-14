@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from "./MainPage.module.scss";
-import Navigation from "../../Components/Navigation";
+// import Navigation from "../../Components/Navigation";
 import About from "../About";
 import Skills from "../Skills";
 import Projects from "../Projects";
@@ -10,7 +10,7 @@ export default class MainPage extends Component {
   render () {
     return (
       <div className={styles.mainpage}>
-      <Navigation />
+      {/* <Navigation /> */}
       <About />
       <Skills />
       <Projects />
