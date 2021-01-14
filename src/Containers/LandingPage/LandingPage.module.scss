@@ -14,23 +14,88 @@ h1 {
     }
 }
 
-.landingPage {
-    height: 100vh;
-    width: 100vw;
-}
-
-.bgImage {
+.pagewrapper {
     display: flex;
-    flex-direction: row;
-    height: 100%;
+    flex-direction: column;
+    height: 100vh;
     width: 100vw;
     background-image: url("../../Images/bgImage1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    .footercontainer {
+        position: absolute;
+        bottom: -12%;
+        height: 12%;
+        width: 100%;
+        background-color: black;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        p {
+            margin: 0;
+            margin-bottom: 5px;
+            font-size: 1rem;
+        }
+
+        .fontAwesomeIcon {
+            font-size: 1.6rem;
+        }
+
+        &:hover {
+            .fontAwesomeIcon {
+                color: $primary-color;
+            }
+        }
+    }
 }
 
-.imgWrapper {
-    height: 100%;
-    width: 100%;
-}
+
+// .landingPage {
+//     height: 100vh;
+//     width: 100vw;
+
+//     .footercontainer {
+//         position: absolute;
+//         bottom: -12%;
+//         height: 12%;
+//         width: 100%;
+//         background-color: black;
+//         z-index: 3;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         cursor: pointer;
+
+//         p {
+//             margin: 0;
+//             margin-bottom: 5px;
+//             font-size: 1rem;
+//         }
+
+//         .fontAwesomeIcon {
+//             font-size: 1.6rem;
+//         }
+
+//         &:hover {
+//             .fontAwesomeIcon {
+//                 color: $primary-color;
+//             }
+//         }
+//     }
+// }
+
+// .bgImage {
+    
+// }
+
+// .imgWrapper {
+//     height: 100%;
+//     width: 100%;
+// }
