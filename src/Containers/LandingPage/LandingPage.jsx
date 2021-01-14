@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import styles from "./LandingPage.module.scss";
 import ReactFullpage from "@fullpage/react-fullpage";
 import MainPage from "../MainPage";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -16,14 +15,18 @@ export default class LandingPage extends Component {
                     return (
                         <ReactFullpage.Wrapper>
                             <div className="section">
-                                <section className={styles.pagewrapper}>
-                                        <h1>Hi I am <span>Louis Valder</span> I am a web developer!</h1>
-                                    <div className={styles.footercontainer}
-                                        onClick={() =>
-                                            fullpageApi.moveSectionDown()}>
-                                        <p>Click To Learn More</p>
-                                        <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faChevronDown} />
+                                <section className={styles.pageContainer}>
+                                    <div className={styles.pageWrapper}>
+                                            <h1>Hi I am <span>Louis Valder</span> I am a web developer!</h1>
                                     </div>
+                                        <div
+                                            className={styles.footerContainer}
+                                            onClick={() =>
+                                                fullpageApi.moveSectionDown()}>
+                                            <p>Click To Learn More</p>
+                                            <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faChevronDown} />
+                                        </div>
+                                    
                                 </section>
                             </div>
                             <div className="section">
