@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styles from "./LandingPage.module.scss";
 import ReactFullpage from "@fullpage/react-fullpage";
 import About from "../About";
-import Projects from "../Projects"; 
+import Project from "../Projects/Project"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -12,6 +12,8 @@ export default class LandingPage extends Component {
         return (
             <ReactFullpage
                 scrollingSpeed={500}
+                controlArrows={true}
+                
                 render={({ fullpageApi }) => {
                     return (
                         <ReactFullpage.Wrapper>
@@ -27,14 +29,18 @@ export default class LandingPage extends Component {
                                             <p>Click To Learn More</p>
                                             <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faChevronDown} />
                                         </div>
-                                    
                                 </section>
                             </div>
                             <div className="section">
                                 <About />
                             </div>
                             <div className="section">
-                                <Projects />
+                                <div className="slide">
+                                    <Project />
+                                </div>
+                                <div className="slide">
+                                    <h3>Hello</h3>
+                                </div>
                             </div>
                         </ReactFullpage.Wrapper>
                     );
