@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import styles from "./LandingPage.module.scss";
 import ReactFullpage from "@fullpage/react-fullpage";
-import MainPage from "../MainPage";
+import About from "../About";
+import Projects from "../Projects"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -30,7 +31,10 @@ export default class LandingPage extends Component {
                                 </section>
                             </div>
                             <div className="section">
-                                <MainPage />
+                                <About />
+                            </div>
+                            <div className="section">
+                                <Projects />
                             </div>
                         </ReactFullpage.Wrapper>
                     );
