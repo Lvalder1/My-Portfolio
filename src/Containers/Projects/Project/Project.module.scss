@@ -23,12 +23,11 @@ h3 {
     width: 200px;
     height: 200px;
     border: 1px solid black;
-    margin: 20px;
     position: relative;
 }
 
-.projectName {
-    transition: 0.5s ease;
+
+.projectClick {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -42,9 +41,15 @@ h3 {
     width: 100%;
     height: 100%;
     text-decoration: none;
-    
+    overflow: hidden;
     
     &:hover {
+        transition: 1s ease-in-out;
         opacity: 1;
+        background-image: 
+        linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    )
     }
 }

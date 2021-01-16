@@ -10,9 +10,7 @@ export default class Project extends Component {
                     <div className={styles.project}>
                         <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                             <img src={this.props.imgSrc} alt={this.props.imgAlt} className={styles.projectImage}></img>
-                            <div className={styles.projectName}>
-                            {this.props.projectName}
-                            </div>
+                            <div className={styles.projectClick}>Click To View Project</div>
                         </a>
                     </div>
                 </div>
