@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import styles from "./App.module.scss";
-import LandingPage from "../LandingPage";
+import Navigation from "../../Components/Navigation";
+import Routes from "../Routes/Routes";
 
 export default class App extends Component {
   render () {
     return (
       <div className={styles.app}>
-      <LandingPage />
+        <Navigation />
+        <Routes />
       </div>
     );
   }
