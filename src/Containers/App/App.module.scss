@@ -3,3 +3,10 @@
 * {
     font-family: $font-stack;
 }
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+
