@@ -12,18 +12,29 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    height: calc(100vh - 40px);
+    height: 100vh;
+    margin-top: -60px;
+    padding-top: 60px;
 }
 
 .aboutMeLeft {
-    flex: 50%;
+    display: flex;
     overflow: hidden;
     border-radius: 50%;
     margin: 20px;
+    justify-content: center;
+    height: auto;
 
     img { 
         width: 100%;
-        height: auto;
+    }
+}
+
+.aboutMeRight {
+    margin: 1rem;
+
+    p {
+        margin-bottom: 0;
     }
 }
 

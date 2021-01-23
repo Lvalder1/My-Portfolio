@@ -5,6 +5,7 @@ import Skills from "../Skills";
 import Projects from "../Projects";
 import Contact from "../Contact";
 
+
 const NotFound = () => (<h2>Not Found</h2>);
 
 export default class Routes extends Component {

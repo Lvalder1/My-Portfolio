@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 export default class Navigation extends Component {
     render () {
       return (
-        <Navbar expand="sm" sticky="top" className={styles.navbar}>
+        <Navbar expand="sm" className={styles.navbar} bg="light">
         <Navbar.Brand className={styles.brand}>
             <p id={styles.brandTop}>Louis Valder</p>
         </Navbar.Brand>
@@ -20,7 +20,7 @@ export default class Navigation extends Component {
             <Nav.Link href="contact">Contact</Nav.Link>
             </Nav>
         </Navbar.Collapse>
-    </Navbar>
+        </Navbar>
       );
     }
   }
