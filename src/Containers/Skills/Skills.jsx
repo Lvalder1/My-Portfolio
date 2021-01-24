@@ -5,7 +5,9 @@ export default class Skills extends Component {
     render () {
         return (
             <div className={styles.skills}>
-                <div id="skills"><h3>Technical Skills</h3></div>
+                <div id="skills">
+                    <h2>Technical Skills</h2>
+                </div>
                 <div className={styles.skillsContainer}>
                     <div>
                         <h3>Front-End</h3>
@@ -24,7 +26,6 @@ export default class Skills extends Component {
                         <p>GitHub</p>
                         <p>Enzyme</p>
                         <p>Test Driven Development</p>
-                        
                     </div>
                     <div>
                         <h3>Back-End</h3>

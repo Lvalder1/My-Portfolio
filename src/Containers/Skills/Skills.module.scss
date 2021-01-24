@@ -6,8 +6,19 @@
     box-sizing: $border-box;
 }
 
-h3 {
+.skills {
+    height: 100vh;
+    margin-top: -56px;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+h2 {
     text-align: center;
+    margin: 1rem;
 }
 
 .skillsContainer {
@@ -17,7 +28,7 @@ h3 {
 
     div {
         text-align: center;
-        flex-grow: 1;
+        // flex-grow: 1;
         width: 40vw;
     }
 

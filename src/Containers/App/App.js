@@ -6,7 +6,7 @@ import Routes from "../Routes/Routes";
 export default class App extends Component {
   render () {
     return (
-      <div className={styles.app}>
+      <div className={styles.app} id={styles.app}>
           <Navigation />
         <Routes />
       </div>
