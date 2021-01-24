@@ -14,17 +14,25 @@
     margin-top: -56px;
     padding-top: 56px;
 }
-
+a {
+    text-decoration: none !important;
+}
 h1 {
     margin: 2rem;
 }
 
-.iconTextBox {
+h2 {
+    margin: 0;
+}
+
+.iconContactBox {
     display: flex;
     flex-direction: row;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
 
     .textBox {
-        padding-left: 5px;
+        padding-left: 5vw;
     }
 }
