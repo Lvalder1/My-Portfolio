@@ -32,7 +32,7 @@ export default class Skills extends Component {
                         <p>RESTful APIs</p>
                         <p>Firebase</p>
                         <p>Authentication (User Login, OAuth)</p>
-                        <p>Databases(NoSQL)</p>
+                        <p>Databases (NoSQL)</p>
                     </div> 
                 </div>
             </div>
