@@ -18,18 +18,21 @@
 
 h2 {
     text-align: center;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .skillsContainer {
     display: flex;
     flex-direction: row;
     text-align: center;
+    justify-content: center;
 
     div {
         text-align: center;
-        // flex-grow: 1;
-        width: 40vw;
+        width: 300px;
+        border: 2px solid $primary-color;
+        border-radius: 15%;
+        margin: 5vw; 
     }
 
     p {
