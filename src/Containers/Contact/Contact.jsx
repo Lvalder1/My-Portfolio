@@ -9,19 +9,20 @@ export default class Contact extends Component {
     render () {
         return (
             <div className={styles.contact} id="contact">
-                <h1>Contact</h1>
-                <p>Please feel free to contact me using the links bellow:</p>
                 <div className={styles.iconContactBox}>
+                    <h1>Contact</h1>
+                        <p>Please feel free to contact me using the links bellow:</p>
                     <div className={styles.textBox}>
                         <a href="mailto:louis_valder@hotmail.co.uk"><FontAwesomeIcon icon={faEnvelope} className={styles.icon} size="lg" /></a>
+                        <a href="mailto:louis_valder@hotmail.co.uk">louis_valder@hotmail.co.uk</a>
                     </div>
-                    <div className={styles.iconBox}>
+                    <div className={styles.textBox}>
                         <a href="https://www.linkedin.com/in/louisvalder/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className={styles.icon} size="lg" /></a>
                     </div>
-                    <div className={styles.iconBox}>
+                    <div className={styles.textBox}>
                         <a href="https://github.com/Lvalder1" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithubSquare} className={styles.icon} size="lg" /></a>
                     </div>
-                    <div className={styles.iconBox}>
+                    <div className={styles.textBox}>
                         <a href={CV} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFileWord} className={styles.icon} size="lg" /></a>
                     </div>
                 </div>
