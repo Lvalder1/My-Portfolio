@@ -16,12 +16,16 @@ export default class Contact extends Component {
                     <div className={styles.textBox}>
                         <a href="mailto:louis_valder@hotmail.co.uk"><h2>louis_valder@hotmail.co.uk</h2></a>
                     </div>
+                </div>
+                <div className={styles.iconContactBox}>
                     <div className={styles.iconBox}>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </div>
                     <div className={styles.textBox}>
                         <a href="mailto:louis_valder@hotmail.co.uk"><h2>louis_valder@hotmail.co.uk</h2></a>
                     </div>
+                </div>
+                <div className={styles.iconContactBox}>
                     <div className={styles.iconBox}>
                         <FontAwesomeIcon icon={faCoffee} />
                     </div>
