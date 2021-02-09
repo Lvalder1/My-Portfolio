@@ -23,14 +23,11 @@ h2 {
 
 .skillsContainer {
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-
+  
     div {
         text-align: center;
         width: 300px;
-        border: 2px solid $primary-color;
+        border: 4px solid $primary-color;
         border-radius: 15%;
         margin: 5vw; 
         box-shadow: 10px 10px 5px grey;
@@ -38,5 +35,17 @@ h2 {
 
     p {
         margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .skillsContainer {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .skills {
+        justify-content: end;
     }
 }
