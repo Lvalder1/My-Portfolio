@@ -17,6 +17,11 @@
     padding-top: 56px;
 }
 
+.spanTxt {
+    color: $primary-color;
+    font-weight: bolder;
+}
+
 .aboutMeLeft {
     display: flex;
     overflow: hidden;
@@ -35,8 +40,9 @@
 .aboutMeRight {
     margin: 1rem;
 
-    p {
+    .aboutTxt {
         margin-bottom: 0;
+        font-size: 30px;
     }
 }
 
