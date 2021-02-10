@@ -8,8 +8,8 @@
 
 .skills {
     height: 100vh;
-    margin-top: -56px;
-    padding-top: 56px;
+    margin-top: -46px;
+    padding-top: 46px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +19,13 @@
 h2 {
     text-align: center;
     margin: 2rem;
+    color: $primary-txt-color;
+}
+
+.skillsHeader {
+    color: $primary-txt-color;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .skillsContainer {
@@ -36,6 +43,7 @@ h2 {
 
     p {
         margin: 0px;
+        color: $primary-txt-color;
     }
 }
 

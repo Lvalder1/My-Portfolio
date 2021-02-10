@@ -10,7 +10,7 @@ export default class Skills extends Component {
                 </div>
                 <div className={styles.skillsContainer}>
                     <div>
-                        <h3>Front-End</h3>
+                        <h3 className={styles.skillsHeader}>Front-End</h3>
                         <p>HTML</p>
                         <p>CSS/SCSS</p>
                         <p>JavaScript</p>
@@ -20,7 +20,7 @@ export default class Skills extends Component {
                         <p>Wordpress</p>
                     </div>
                     <div>
-                        <h3>Tooling</h3>
+                        <h3 className={styles.skillsHeader}>Tooling</h3>
                         <p>Git</p>
                         <p>Git Bash</p>
                         <p>GitHub</p>
@@ -28,7 +28,7 @@ export default class Skills extends Component {
                         <p>Test Driven Development</p>
                     </div>
                     <div>
-                        <h3>Back-End</h3>
+                        <h3 className={styles.skillsHeader}>Back-End</h3>
                         <p>RESTful APIs</p>
                         <p>Firebase</p>
                         <p>Authentication (User Login, OAuth)</p>

@@ -14,16 +14,19 @@
 
 a {
     text-decoration: none !important;
+    color: $primary-txt-color !important;
 }
 
 h1 {
     margin: 2rem;
     align-items: center;
+    color: $primary-txt-color;
 }
 
 p {
     font-size: 1.5rem;
     text-align: center;
+    color: $primary-txt-color;
 }
 
 .contactLinks {

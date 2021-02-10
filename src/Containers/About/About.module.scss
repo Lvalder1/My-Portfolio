@@ -13,8 +13,8 @@
     justify-content: center;
     align-content: center;
     height: 100vh;
-    margin-top: -56px;
-    padding-top: 56px;
+    margin-top: -46px;
+    padding-top: 46px;
 }
 
 .spanTxt {
@@ -29,7 +29,7 @@
     margin: 20px;
     justify-content: center;
     height: auto;
-    width: 30vw;
+    width: 20vw;
 
     img { 
         width: 100%;
@@ -55,5 +55,10 @@
     .aboutMeRight {
         display: flex;
         text-align: center;
+    }
+
+    .aboutMeLeft {
+        height: auto;
+        width: 60vw;
     }
 }
