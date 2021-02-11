@@ -10,6 +10,7 @@ export default class Projects extends Component {
                 <Project
                         heading="Rock, Paper, Scissors"
                         link="https://lvalder1.github.io/Rock-Paper-Scissors/"
+                        code="https://github.com/Lvalder1/Rock-Paper-Scissors"
                         imgSrc={RPS} 
                         imgAlt="Rock, Paper, Scissors"/>
             </>
