@@ -19,11 +19,11 @@
 h2 {
     text-align: center;
     margin: 2rem;
-    color: $primary-txt-color;
+    color: $font-color;
 }
 
 .skillsHeader {
-    color: $primary-txt-color;
+    color: $font-color;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -45,7 +45,7 @@ h2 {
 
             p {
                 margin: 0px;
-                color: $primary-txt-color;
+                color: $font-color;
             }
 }
 

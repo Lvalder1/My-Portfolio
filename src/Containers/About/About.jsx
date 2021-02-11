@@ -11,7 +11,9 @@ export default class About extends Component {
                         <img src={profile} alt="Profile"></img>
                     </div>
                     <div className={styles.aboutMeRight}>
-                        <p className={styles.aboutTxt}>Hi, I am Louis Valder a <span className={styles.spanTxt}>Front-End Web Developer</span> from London.</p>
+                        <p className={styles.aboutTxt}>Hi, I am Louis Valder a front-end web developer from London. Before becoming a developer I worked for 6 years
+                         in the Audio Visual industry before embarking on a complete career change. I have completed a coding bootcamp and
+                        I am now ready to start a career as a web developer.</p>
                     </div>
                 </div>
         );

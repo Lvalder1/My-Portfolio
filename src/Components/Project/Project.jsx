@@ -12,11 +12,11 @@ export default class Project extends Component {
                     <img src={this.props.imgSrc} alt={this.props.imgAlt} className={styles.projectImage}></img>
                     <div className={styles.icons}>
                         <div className={styles.iconTxt}>
-                            <a href={this.props.code} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faCode} className={styles.icon} />
+                            <a href={this.props.code} className={styles.link} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faCode} className={styles.icon} />
                             <p>Check Out the Code</p></a>
                         </div>
                         <div className={styles.iconTxt}>
-                            <a href={this.props.link} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWindowMaximize} className={styles.icon} />
+                            <a href={this.props.link} className={styles.link} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWindowMaximize} className={styles.icon} />
                             <p>View the Project</p></a>
                         </div>
                     </div>
