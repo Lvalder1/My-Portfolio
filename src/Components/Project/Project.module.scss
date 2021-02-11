@@ -21,8 +21,18 @@ h3 {
     transform: scale(2);
 }
 
+p {
+    margin: 0px 10px;
+}
 .icons {
     margin: 1.2rem;
+    display: flex;
+}
+
+.iconTxt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .projectImage {
