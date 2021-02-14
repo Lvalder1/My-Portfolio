@@ -25,7 +25,7 @@ export default class Navigation extends Component {
         <Navbar.Brand className={styles.brand}>
             <p id={styles.brandTop}>Louis Valder</p>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className={styles.btn} />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ml-20">
             <NavItem path="/" name="About" />
