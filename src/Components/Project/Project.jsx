@@ -13,7 +13,7 @@ export default class Project extends Component {
                     <div className={styles.icons}>
                         <div className={styles.iconTxt}>
                             <a href={this.props.code} className={styles.link} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faCode} className={styles.icon} />
-                            <p>Check Out the Code</p></a>
+                            <p>View on Github</p></a>
                         </div>
                         <div className={styles.iconTxt}>
                             <a href={this.props.link} className={styles.link} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWindowMaximize} className={styles.icon} />

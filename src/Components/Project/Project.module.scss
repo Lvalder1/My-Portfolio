@@ -6,7 +6,8 @@ a {
 }
 
 h3 {
-    color: $primary-txt-color;
+    color: $primary-color;
+    text-align: center;
 }
 
 .projectArea {
@@ -40,8 +41,8 @@ p {
 }
 
 .projectImage {
-    width: 200px;
-    height: 200px;
+    width: 30vw;
+    height: auto;
     border: 1px solid black;
 }
 
