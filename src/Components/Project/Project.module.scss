@@ -46,3 +46,18 @@ p {
     border: 1px solid black;
 }
 
+@media only screen and (max-width: 600px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .projectImage {
+        width: 50vw;
+        height: auto;
+        border: 1px solid black;
+    }
+
+    p {
+        font-size: 15px !important;
+    }
+}

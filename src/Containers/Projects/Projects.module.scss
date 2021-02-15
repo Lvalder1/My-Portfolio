@@ -1,8 +1,10 @@
 .projects {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .project {
     flex: 50%;
 }
+

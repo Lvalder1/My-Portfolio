@@ -10,6 +10,7 @@ export default class Project extends Component {
                 <div className={styles.projectArea}>
                     <h3>{this.props.heading}</h3>
                     <img src={this.props.imgSrc} alt={this.props.imgAlt} className={styles.projectImage}></img>
+                    <p className={styles.description}>{this.props.description}</p>
                     <div className={styles.icons}>
                         <div className={styles.iconTxt}>
                             <a href={this.props.code} className={styles.link} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faCode} className={styles.icon} />
