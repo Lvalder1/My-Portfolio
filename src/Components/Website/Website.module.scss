@@ -1,6 +1,5 @@
 @import "../../Variables";
 
-
 a {
     color: black !important;
 }
@@ -10,7 +9,7 @@ h3 {
     text-align: center;
 }
 
-.projectArea {
+.websiteArea {
     display: flex;
     flex-direction: column;
     margin: 30px;
@@ -29,6 +28,7 @@ h3 {
 p {
     margin: 0px 10px;
 }
+
 .icons {
     margin: 1.2rem;
     display: flex;
@@ -40,17 +40,17 @@ p {
     text-align: center;
 }
 
-.projectImage {
+.websiteImage {
     width: 30vw;
     height: auto;
 }
 
 @media only screen and (max-width: 600px) {
-    .project {
+    .website {
         flex-direction: column;
     }
 
-    .projectImage {
+    .websiteImage {
         width: 50vw;
         height: auto;
     }

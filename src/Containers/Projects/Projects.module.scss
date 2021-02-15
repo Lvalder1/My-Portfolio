@@ -1,10 +1,15 @@
-.projects {
+.projectRow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .project {
+    flex: 50%;
+}
+
+.website {
     flex: 50%;
 }
 
