@@ -22,7 +22,7 @@ export default class Projects extends Component {
                           code="https://github.com/Lvalder1/Rock-Paper-Scissors"
                           imgSrc={RPS} 
                           imgAlt="Rock, Paper, Scissors"
-                          description="This is a classic game of rock, paper scissors created using javascript that you can play against the computer."/>
+                          description="This is a classic game of Rock, Paper, Scissors created using JavaScript that you can play against the computer."/>
                 </div>
                 <div className={styles.project}>
                   <Project 
@@ -42,7 +42,7 @@ export default class Projects extends Component {
                           code="https://github.com/Lvalder1/city-garden-planting"
                           imgSrc={MLB} 
                           imgAlt="My Little Boarders"
-                          description= "A website, that I am maintaining and updating for a client, that provides skateboarding lesson for children. The website is built using Wordpress and incorporates WooCommerce. "/>
+                          description= "A website, that I am maintaining and updating for a client, that provides skateboarding lessons for children. The website is built using Wordpress and incorporates WooCommerce. "/>
               </div>
                 <div className={styles.project}>
                   <Project 
@@ -51,7 +51,7 @@ export default class Projects extends Component {
                         code="https://github.com/Lvalder1/Tick-Tack-Toe"
                         imgSrc={TTT} 
                         imgAlt="Tick-Tack-Toe"
-                        description="A 2 player game of Tick-Tack-Toe created using javascript"/>
+                        description="A 2 player game of Tick-Tack-Toe created using JavaScript"/>
                 </div>
               </div>
               <div className={styles.projectRow}>
@@ -62,7 +62,7 @@ export default class Projects extends Component {
                             code="https://github.com/Lvalder1/pokemon"
                             imgSrc={Pokemon} 
                             imgAlt="Pokemon"
-                            description="A react build that uses a Firebase database to display information about various pokemon."/>
+                            description="A React build that uses a Firebase database to display information about various Pokemon."/>
                 </div>
               </div>
             </div>
