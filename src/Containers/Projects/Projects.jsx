@@ -16,13 +16,13 @@ export default class Projects extends Component {
             <div className={styles.projects}>
               <div className={styles.projectRow}>
                 <div className={styles.project}>
-                  <Project 
-                          heading="Rock, Paper, Scissors"
-                          link="https://lvalder1.github.io/Rock-Paper-Scissors/"
-                          code="https://github.com/Lvalder1/Rock-Paper-Scissors"
-                          imgSrc={RPS} 
-                          imgAlt="Rock, Paper, Scissors"
-                          description="This is a classic game of Rock, Paper, Scissors created using JavaScript that you can play against the computer."/>
+                <Website 
+                          heading="My Little Boarders"
+                          link="http://citygardenplanting.co.uk/home"
+                          code="https://github.com/Lvalder1/city-garden-planting"
+                          imgSrc={MLB} 
+                          imgAlt="My Little Boarders"
+                          description= "A website, that I am maintaining and updating for a client, that provides skateboarding lessons for children. The website is built using Wordpress and incorporates WooCommerce. "/>
                 </div>
                 <div className={styles.project}>
                   <Project 
@@ -36,13 +36,13 @@ export default class Projects extends Component {
               </div>
               <div className={styles.projectRow}>
                 <div className={styles.website}>
-                <Website 
-                          heading="My Little Boarders"
-                          link="http://citygardenplanting.co.uk/home"
-                          code="https://github.com/Lvalder1/city-garden-planting"
-                          imgSrc={MLB} 
-                          imgAlt="My Little Boarders"
-                          description= "A website, that I am maintaining and updating for a client, that provides skateboarding lessons for children. The website is built using Wordpress and incorporates WooCommerce. "/>
+                <Project 
+                          heading="Rock, Paper, Scissors"
+                          link="https://lvalder1.github.io/Rock-Paper-Scissors/"
+                          code="https://github.com/Lvalder1/Rock-Paper-Scissors"
+                          imgSrc={RPS} 
+                          imgAlt="Rock, Paper, Scissors"
+                          description="This is a classic game of Rock, Paper, Scissors created using JavaScript that you can play against the computer."/>
               </div>
                 <div className={styles.project}>
                   <Project 
