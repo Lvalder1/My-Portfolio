@@ -62,7 +62,7 @@ export default class Projects extends Component {
                             code="https://github.com/Lvalder1/pokemon"
                             imgSrc={Pokemon} 
                             imgAlt="Pokemon"
-                            description="A react build that uses a firebase database to display information about various pokemon."/>
+                            description="A react build that uses a Firebase database to display information about various pokemon."/>
                 </div>
               </div>
             </div>
