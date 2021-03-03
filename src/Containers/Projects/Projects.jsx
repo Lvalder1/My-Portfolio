@@ -18,8 +18,7 @@ export default class Projects extends Component {
                 <div className={styles.project}>
                 <Website 
                           heading="My Little Boarders"
-                          link="http://citygardenplanting.co.uk/home"
-                          code="https://github.com/Lvalder1/city-garden-planting"
+                          link="https://mylittleboarders.co.uk/"
                           imgSrc={MLB} 
                           imgAlt="My Little Boarders"
                           description= "A website, that I am maintaining and updating for a client, that provides skateboarding lessons for children. The website is built using Wordpress and incorporates WooCommerce. "/>
@@ -27,7 +26,7 @@ export default class Projects extends Component {
                 <div className={styles.project}>
                   <Project 
                         heading="City Garden Planting"
-                        link="http://citygardenplanting.co.uk/home"
+                        link="http://citygardenplanting.co.uk/"
                         code="https://github.com/Lvalder1/city-garden-planting"
                         imgSrc={CGP} 
                         imgAlt="City Garden Planting"
